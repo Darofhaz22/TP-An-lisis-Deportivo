@@ -12,9 +12,16 @@ Estadísticas y análisis deportivos.
 Proyecto realizado para analizar resultados deportivos utilizando Python, GitHub, Jira y Google Colab.
 
 ## Estructura del proyecto
-- /datos
-- /scripts
-- /resultados
+
+repo-proyecto/
+
+├── datos/
+├── scripts/
+├── resultados/
+├── README.md
+└── .gitignore
+
+---
 
 ## Tecnologías utilizadas
 - Python
@@ -22,3 +29,15 @@ Proyecto realizado para analizar resultados deportivos utilizando Python, GitHub
 - GitHub
 - Jira
 - Google Colab
+
+## Funcionalidades
+
+- Tabla de posiciones
+- Puntos
+- Victorias
+- Empates
+- Derrotas
+- Goles a favor
+- Goles en contra
+- Diferencia de gol
+- Promedio de goles
