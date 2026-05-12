@@ -75,17 +75,17 @@ for i, partido in df.iterrows():
 # Convertir a DataFrame
 tabla_final = pd.DataFrame(tabla).T
 
-# Ordenar tabla
+# Ordena la tabla
 tabla_final = tabla_final.sort_values(
     by=["Puntos", "Diferencia_Gol"],
     ascending=False
 )
 
-# Mostrar tabla
-# Mostrar todas las columnas
+# Muestra tabla
+# Muestra todas las columnas
 pd.set_option('display.max_columns', None)
 
-# Mostrar tabla
+# Muestra tabla
 print("TABLA DE POSICIONES")
 print(tabla_final)
 
